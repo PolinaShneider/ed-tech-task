@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+.Timer {
+    background: url("./img/timer-back.png");
+    width: 537px;
+    height: 274px;
+    font-family: 'Roboto Mono', monospace;
+    position: relative;
+}
+
+.Timer_digits {
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #111111;
+    font-size: 96px;
+}

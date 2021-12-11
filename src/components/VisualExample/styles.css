@@ -1,0 +1,10 @@
+.VisualExample {
+    margin-top: 60px;
+}
+
+.VisualExample_demo {
+    display: inline-flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: flex-start;
+}
