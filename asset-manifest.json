@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/ed-tech-task/static/css/main.f1ee8079.chunk.css",
-    "main.js": "/ed-tech-task/static/js/main.b3b23af3.chunk.js",
-    "main.js.map": "/ed-tech-task/static/js/main.b3b23af3.chunk.js.map",
-    "runtime-main.js": "/ed-tech-task/static/js/runtime-main.f4479dd7.js",
-    "runtime-main.js.map": "/ed-tech-task/static/js/runtime-main.f4479dd7.js.map",
-    "static/js/2.053fbe8a.chunk.js": "/ed-tech-task/static/js/2.053fbe8a.chunk.js",
-    "static/js/2.053fbe8a.chunk.js.map": "/ed-tech-task/static/js/2.053fbe8a.chunk.js.map",
-    "static/js/3.2c32d4d7.chunk.js": "/ed-tech-task/static/js/3.2c32d4d7.chunk.js",
-    "static/js/3.2c32d4d7.chunk.js.map": "/ed-tech-task/static/js/3.2c32d4d7.chunk.js.map",
+    "main.css": "/ed-tech-task/static/css/main.473e886a.chunk.css",
+    "main.js": "/ed-tech-task/static/js/main.3da683e7.chunk.js",
+    "main.js.map": "/ed-tech-task/static/js/main.3da683e7.chunk.js.map",
+    "runtime-main.js": "/ed-tech-task/static/js/runtime-main.5aa0e610.js",
+    "runtime-main.js.map": "/ed-tech-task/static/js/runtime-main.5aa0e610.js.map",
+    "static/js/2.07731a3c.chunk.js": "/ed-tech-task/static/js/2.07731a3c.chunk.js",
+    "static/js/2.07731a3c.chunk.js.map": "/ed-tech-task/static/js/2.07731a3c.chunk.js.map",
+    "static/js/3.3f3ae940.chunk.js": "/ed-tech-task/static/js/3.3f3ae940.chunk.js",
+    "static/js/3.3f3ae940.chunk.js.map": "/ed-tech-task/static/js/3.3f3ae940.chunk.js.map",
     "index.html": "/ed-tech-task/index.html",
-    "static/css/main.f1ee8079.chunk.css.map": "/ed-tech-task/static/css/main.f1ee8079.chunk.css.map",
-    "static/js/2.053fbe8a.chunk.js.LICENSE.txt": "/ed-tech-task/static/js/2.053fbe8a.chunk.js.LICENSE.txt",
+    "static/css/main.473e886a.chunk.css.map": "/ed-tech-task/static/css/main.473e886a.chunk.css.map",
+    "static/js/2.07731a3c.chunk.js.LICENSE.txt": "/ed-tech-task/static/js/2.07731a3c.chunk.js.LICENSE.txt",
     "static/media/miracles.b5c88052.png": "/ed-tech-task/static/media/miracles.b5c88052.png",
     "static/media/styles.css": "/ed-tech-task/static/media/timer-back.d201cae9.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.f4479dd7.js",
-    "static/js/2.053fbe8a.chunk.js",
-    "static/css/main.f1ee8079.chunk.css",
-    "static/js/main.b3b23af3.chunk.js"
+    "static/js/runtime-main.5aa0e610.js",
+    "static/js/2.07731a3c.chunk.js",
+    "static/css/main.473e886a.chunk.css",
+    "static/js/main.3da683e7.chunk.js"
   ]
 }
