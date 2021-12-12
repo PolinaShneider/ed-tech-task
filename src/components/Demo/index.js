@@ -4,6 +4,7 @@ import Task from "../Task";
 import Timer from "../Timer";
 import VisualExample from "../VisualExample";
 import MultiplicationTable from "../MultiplicationTable";
+import Intervals from "../Intervals";
 
 const Demo = () => {
     const [demoState, setDemoState] = useState('demo');
@@ -25,6 +26,7 @@ const Demo = () => {
         reset
     };
     return <div>
+        <Intervals/>
         <div className="Demo">
             <Task {...props} />
             <Timer state={demoState} isCorrect={isCorrect}/>
