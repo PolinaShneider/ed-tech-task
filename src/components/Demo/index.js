@@ -3,6 +3,7 @@ import './styles.css';
 import Task from "../Task";
 import Timer from "../Timer";
 import VisualExample from "../VisualExample";
+import MultiplicationTable from "../MultiplicationTable";
 
 const Demo = () => {
     const [demoState, setDemoState] = useState('demo');

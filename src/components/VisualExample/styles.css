@@ -2,6 +2,14 @@
     margin-top: 60px;
 }
 
+.VisualExample_holder {
+    display: flex;
+}
+
+.VisualExample_pics {
+    position: relative;
+}
+
 .VisualExample_demo {
     display: inline-flex;
     flex-direction: column;
@@ -15,8 +23,8 @@
     justify-items: center;
     align-items: flex-start;
     position: absolute;
-    right: 200px;
-    bottom: 100px;
+    right: 0px;
+    bottom: 180px;
     transition: opacity 1s ease-out;
     opacity: 0;
     height: 0;
