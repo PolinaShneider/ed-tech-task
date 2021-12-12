@@ -25,7 +25,7 @@ const Timer = ({state, isCorrect}) => {
             if (seconds > 0) {
                 setSeconds(seconds - 1);
             } else {
-                setSeconds(60);
+                // setSeconds(60);
             }
         }, 1000);
 
@@ -33,8 +33,15 @@ const Timer = ({state, isCorrect}) => {
     });
 
     return state === 'solve' ? getLabel(isCorrect) : (
-        <div className="Timer">
-            <span className="Timer_digits">{formatTime(seconds)}</span>
+        <div style={{position: 'relative'}}>
+            <div className="Timer">
+                <span className="Timer_digits">{formatTime(seconds)}</span>
+            </div>
+            {seconds === 0 ? <span style={{
+                position: 'absolute',
+                right: '80px',
+                bottom: '20px'
+            }} onClick={() => setSeconds(60)}>Время вышло. Начать заново?</span> : null}
         </div>
     );
 };
