@@ -23,7 +23,7 @@
     justify-items: center;
     align-items: flex-start;
     position: absolute;
-    right: 0px;
+    right: 0;
     bottom: 180px;
     transition: opacity 1s ease-out;
     opacity: 0;

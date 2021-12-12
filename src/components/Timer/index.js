@@ -10,12 +10,12 @@ const formatTime = (seconds) => {
 };
 
 const getLabel = (isCorrect) => {
-    console.log(isCorrect)
     if (isCorrect === true) {
         return <div className="Timer_answer">Совершенно верно!</div>
-    } else {
+    } else if (isCorrect === false) {
         return <div className="Timer_answer_wrong">Попробуй ещё раз</div>
     }
+    return null;
 };
 
 const Timer = ({state, isCorrect}) => {

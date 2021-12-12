@@ -12,12 +12,17 @@ const Demo = () => {
         setDemoState('solve');
         setCorrect(result)
     };
+    const reset = () => {
+        setDemoState('demo');
+        setCorrect(null);
+    };
     const props = {
         first: 7,
         second: 2,
         checkAnswer,
         state: demoState,
-        isCorrect
+        isCorrect,
+        reset
     };
     return <div>
         <div className="Demo">
