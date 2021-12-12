@@ -3,22 +3,25 @@ import './styles.css';
 import pic from './img/miracles.png';
 import picLabel from './img/label.png';
 
-const getContent = (props) => {
-    const {state, count} = props;
-    let elem = null;
-    switch (state) {
-        case 'demo':
-            elem = <div className="VisualExample_demo"><img src={picLabel}/><img src={pic}/></div>;
-            break;
-        case 'solve':
-            elem = new Array(count).map((it) => <img src={pic}/>)
-            break;
-    }
-    return elem;
+const Content = (props) => {
+    const {state} = props;
+    return (
+        <div className={[state === 'solve' ? "show" : '', "VisualExample_demo_answer"].join(' ')}>
+            <img src={pic}/>
+        </div>
+    )
 };
 
 const VisualExample = (props) => {
-    return <div className="VisualExample">{getContent(props)}</div>
+    return <div className="VisualExample">
+        <div>
+            {Content(props)}
+            <div className="VisualExample_demo">
+                {props.state === 'demo' ? <img src={picLabel}/> : <img style={{opacity: 0}} src={picLabel}/>}
+                <img src={pic}/>
+            </div>
+        </div>
+    </div>
 };
 
 export default VisualExample;

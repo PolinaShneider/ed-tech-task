@@ -16,3 +16,17 @@
     color: #111111;
     font-size: 96px;
 }
+
+.Timer_answer {
+    color: #028D3A;
+    font-size: 36px;
+    align-self: flex-start;
+    margin-top: 65px;
+}
+
+.Timer_answer_wrong {
+    color: #8d0b27;
+    font-size: 36px;
+    align-self: flex-start;
+    margin-top: 65px;
+}

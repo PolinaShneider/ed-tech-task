@@ -1,16 +1,29 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './styles.css';
 import Task from "../Task";
 import Timer from "../Timer";
 import VisualExample from "../VisualExample";
 
 const Demo = () => {
+    const [demoState, setDemoState] = useState('demo');
+    const [isCorrect, setCorrect] = useState(null);
+    const checkAnswer = (result) => {
+        setDemoState('solve');
+        setCorrect(result)
+    };
+    const props = {
+        first: 7,
+        second: 2,
+        checkAnswer,
+        state: demoState,
+        isCorrect
+    };
     return <div>
         <div className="Demo">
-            <Task first={1} second={7}/>
-            <Timer/>
+            <Task {...props} />
+            <Timer state={demoState} isCorrect={isCorrect}/>
         </div>
-        <VisualExample state="demo" count={2}/>
+        <VisualExample count={props.second} {...props}/>
     </div>
 };
 

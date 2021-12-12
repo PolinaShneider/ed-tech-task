@@ -8,3 +8,22 @@
     justify-items: center;
     align-items: flex-start;
 }
+
+.VisualExample_demo_answer {
+    display: inline-flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: flex-start;
+    position: absolute;
+    right: 200px;
+    bottom: 100px;
+    transition: opacity 1s ease-out;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.VisualExample_demo_answer.show {
+    opacity: 1;
+    height: auto;
+}
